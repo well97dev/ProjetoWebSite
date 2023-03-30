@@ -102,6 +102,9 @@ img .well{
 
 .card {
     display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
     margin: 80px;
     border: 1px solid #ccc;
     border-radius: 5px;
