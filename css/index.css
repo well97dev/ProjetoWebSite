@@ -81,3 +81,9 @@ footer {
 img, .front {
     width: 100vh;
 }
+
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
