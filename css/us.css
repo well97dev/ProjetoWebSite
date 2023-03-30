@@ -97,6 +97,7 @@ img .well {
     overflow: auto;
     /* adiciona um clearfix para limpar as flutuações */
     /* distância entre os cards */
+
 }
 
 .card {
@@ -106,6 +107,7 @@ img .well {
     /* alinha os cards à esquerda */
     margin-right: 20px;
     /* adiciona um espaço entre os cards */
+    border: 1px solid;
 }
 
 .card img {
@@ -114,7 +116,7 @@ img .well {
     border-radius: 5px 5px 0 0;
 }
 
-.card , figcaption {
+.card, figcaption {
     background-color: #FFF;
     padding: 10px;
     border-top: 1px solid #000;
