@@ -1,0 +1,59 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 600px;
+  }
+  fieldset {
+    margin-bottom: 20px;
+    border: 5px solid #2f5fff;
+    padding: 20px;
+  }
+  
+  legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Ajuste para dispositivos móveis */
+  @media (max-width: 768px) {
+    form input,
+    form textarea {
+      width: 80%;
+    }
+  }
+  
