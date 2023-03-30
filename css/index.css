@@ -1,0 +1,83 @@
+/* Home */
+p {
+    color: white;
+    font-size: 40px;
+    font-family: asdf, arial, "Times new roman";
+}
+
+body {
+    background-image: radial-gradient(circle at 120.71% 50%, #ff6ebf 0, #ff63c8 8.33%, #ff59d1 16.67%, #ff4eda 25%, #f146e3 33.33%, #d640eb 41.67%, #b53cf2 50%, #8b3df9 58.33%, #4b41ff 66.67%, #0046ff 75%, #004bff 83.33%, #0050ff 91.67%, #0052ff 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, arial;
+}
+
+header {
+    background-color: #0e1b91;
+    height: 80px;
+    padding: 20px;
+}
+
+
+
+h1 {
+    color: #FFF;
+    text-shadow: 1px 1px 1px #111111;
+    text-align: center;
+    display: flex;
+    margin: 1 0 50px 0;
+}
+
+/* IDS */
+#principal {
+
+    background-size: 100%;
+    min-height: 400px;
+    padding: 80px 0 0 0;
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    margin-top: -30px;
+    float: right;
+    display: block;
+
+}
+
+#menu a {
+    padding: 52px 20px;
+    text-decoration: none;
+    color: #111;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+button:hover {
+    color: #000000;
+    background: #31c90b;
+}
+
+/* class */
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    clear: both;
+    background-color: #0e1b91;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+img, .front {
+    width: 100vh;
+}
