@@ -81,7 +81,7 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 12px;
-    margin-top: 5px;
+    margin-top: 400px;
 }
 
 img .well, .pablo {
@@ -92,9 +92,12 @@ img .well, .pablo {
 }
 
 img .well{
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    top: 10px;
+    left: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
